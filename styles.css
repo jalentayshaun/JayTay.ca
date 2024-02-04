@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #1E00A6;
+    --secondary-color: #E10018;
+    --accent-color: #F500AB;
+    --accent-color-2: #CD00F5;
+    --accent-color-3: #7D00F5;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #0732f1, #7D00F5, #cb0115);
+    /* background: linear-gradient(300deg, #1E00A6, #7D00F5, #E10018); */
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* font-family: 'Varela Round', sans-serif; */
+/* font-family: 'DM Sans', sans-serif; */
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
+}
+
+h1, h2, h3, h4 {
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    color: #ffffffeb;
+    /* color: #000; */
+    /* color: var(--primary-color); */
+}
+
+/* Header */
+#header a {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+/* #header .navlink.active {
+    background-color: var(--primary-color);
+    color: #FFFFFF30;
+}
+
+.nav-link {
+    color: var(--primary-color);
+}
+
+.nav-link active {
+    background-color: var(--primary-color);
+} */
+
+/* Hero */
+#hero {
+
+}
+
+#hero > div > div {
+    background-color: #FFFFFF30;
+}
+/* bg-primary-subtle border-primary-subtle */
+
+/* About */
+#about img {
+    border-radius: 10px;
+}
+
+/* Projects */
+#projects {
+
+}
+
+/* Contact */
+#contact {
+
+}
+
+/* Footer */
+#footer {
+    color: #FFF;
+}

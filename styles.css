@@ -81,8 +81,16 @@ h1 {
 }
 
 /* Projects */
-#projects {
+#projects a {
+    text-decoration: none;
+}
 
+#projects .card {
+    min-height: 23rem;
+}
+
+#projects .card img {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.113);
 }
 
 /* Contact */

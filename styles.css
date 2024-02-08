@@ -8,7 +8,6 @@
 
 .gradient-background {
     background: linear-gradient(300deg, #0732f1, #7D00F5, #cb0115);
-    /* background: linear-gradient(300deg, #1E00A6, #7D00F5, #E10018); */
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
@@ -32,42 +31,33 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
-    /* font-family: 'DM Sans', sans-serif; */
 }
 
 h1, h2, h3, h4 {
-    /* font-family: 'Varela Round', sans-serif; */
     font-family: 'DM Sans', sans-serif;
 }
 
 h1 {
     color: #ffffffeb;
-    /* color: #000; */
-    /* color: var(--primary-color); */
 }
 
 /* Header */
+#header .container {
+    /* position: fixed; */
+}
+
+#header ul {
+    justify-content: flex-end;
+}
+
 #header a {
     background-color: transparent;
     color: var(--primary-color);
 }
 
-/* #header .navlink.active {
-    background-color: var(--primary-color);
-    color: #FFFFFF30;
-}
-
-.nav-link {
-    color: var(--primary-color);
-}
-
-.nav-link active {
-    background-color: var(--primary-color);
-} */
-
 /* Hero */
 #hero {
-
+    /* position: relative; */
 }
 
 #hero > div > div {

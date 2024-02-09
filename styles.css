@@ -92,3 +92,29 @@ h1 {
 #footer {
     color: #FFF;
 }
+
+/* Phone Screens */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 4rem !important;
+    }
+
+    #hero-img {
+        height: 400px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 367px) {
+    h1 {
+        font-size: 3rem !important;
+    }
+
+    #hero-img {
+        height: 350px;
+    }
+}

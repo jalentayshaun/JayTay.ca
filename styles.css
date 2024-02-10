@@ -55,6 +55,12 @@ h1 {
     color: var(--primary-color);
 }
 
+#header a.disabled-link {
+    color: rgba(0, 0, 0, 0.452);
+    pointer-events: none;
+    cursor: none;
+}
+
 /* Hero */
 #hero {
     /* position: relative; */

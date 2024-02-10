@@ -1,3 +1,7 @@
+/* font-family: 'Varela Round', sans-serif; */
+/* font-family: 'DM Sans', sans-serif; */
+/* bg-primary-subtle border-primary-subtle */
+
 :root {
     --primary-color: #1E00A6;
     --secondary-color: #E10018;
@@ -26,9 +30,6 @@
     }
 }
 
-/* font-family: 'Varela Round', sans-serif; */
-/* font-family: 'DM Sans', sans-serif; */
-
 body {
     font-family: 'Varela Round', sans-serif;
 }
@@ -42,10 +43,6 @@ h1 {
 }
 
 /* Header */
-#header .container {
-    /* position: fixed; */
-}
-
 #header ul {
     justify-content: flex-end;
 }
@@ -62,14 +59,9 @@ h1 {
 }
 
 /* Hero */
-#hero {
-    /* position: relative; */
-}
-
 #hero > div > div {
     background-color: #FFFFFF30;
 }
-/* bg-primary-subtle border-primary-subtle */
 
 /* About */
 #about img {
@@ -90,9 +82,9 @@ h1 {
 }
 
 /* Contact */
-#contact {
+/* #contact {
 
-}
+} */
 
 /* Footer */
 #footer {

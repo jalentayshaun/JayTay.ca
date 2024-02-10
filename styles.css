@@ -99,16 +99,44 @@ h1 {
     color: #FFF;
 }
 
+/* Desktops */
+@media (min-width: 1385px) {
+    /* Projects */
+    #projects .card {
+        min-height: 22rem;
+    }
+}
+
+/* Laptops */
+@media (min-width: 768px) {
+
+    /* Projects */
+    #projects .card {
+        min-height: 21.5rem;
+    }
+}
+
+/* Tablets */
+@media (max-width: 767px) {
+
+    /* Projects */
+    #projects .card {
+        min-height: auto;
+    }
+}
+
 /* Phone Screens */
 @media (max-width: 576px) {
     h1 {
         font-size: 4rem !important;
     }
 
+    /* Hero */
     #hero-img {
         height: 400px;
     }
 
+    /* Footer */
     footer {
         display: flex;
         flex-direction: column;
@@ -120,6 +148,7 @@ h1 {
         font-size: 3rem !important;
     }
 
+    /* Hero */
     #hero-img {
         height: 350px;
     }

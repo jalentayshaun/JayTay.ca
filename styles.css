@@ -99,11 +99,24 @@ h1 {
     color: #FFF;
 }
 
+#footer img {
+    height: 24px;
+    width: 24px;
+}
+
 /* Desktops */
-@media (min-width: 1385px) {
+@media (min-width: 1400px) {
     /* Projects */
     #projects .card {
-        min-height: 22rem;
+        min-height: 25rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Projects */
+    #projects .card {
+        min-height: 22rem !important;
     }
 }
 

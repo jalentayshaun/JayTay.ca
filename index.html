@@ -16,18 +16,39 @@
 <body>
     <!-- Navbar -->
     <section id="header">
-        <div class="container">
-            <header class="flex py-3">
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="https://jalentayshaun.github.io/Resume/" class="nav-link">Resume</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <!-- <li class="nav-item"><a href="#" class="nav-link disabled-link">Services</a></li> -->
-                    <!-- <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li> -->
-                </ul>
-            </header>
-        </div>
+        <nav class="navbar navbar-expand-sm" aria-label="Third navbar example">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">sm</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+                    aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto my-2 my-sm-1">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://jalentayshaun.github.io/Resume/">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle disabled" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Digital Resume Builder</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </section>
 
     <!-- Hero -->

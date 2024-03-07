@@ -1,5 +1,6 @@
 /* font-family: 'Varela Round', sans-serif; */
 /* font-family: 'DM Sans', sans-serif; */
+/* font-family: "DM Serif Display", serif; */
 /* bg-primary-subtle border-primary-subtle */
 
 :root {
@@ -34,12 +35,14 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'DM Sans', sans-serif;
-}
-
 h1 {
     color: #ffffffeb;
+    font-weight: 400;
+    text-shadow: 5px 5px 10px var(--primary-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* div {
@@ -128,7 +131,7 @@ nav {
 
     /* Projects */
     #projects .card {
-        min-height: 22rem !important;
+        min-height: 24rem !important;
     }
 }
 
@@ -137,7 +140,7 @@ nav {
 
     /* Projects */
     #projects .card {
-        min-height: 21.5rem;
+        min-height: 22rem;
     }
 }
 
